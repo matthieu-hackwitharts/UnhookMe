@@ -10,8 +10,8 @@ It comes in the form of a dll and a cna script (Cobaltstrike), to be used in pos
 # How to use
 
 There are two main components in this project:<br>
-- unhook_me.cna : The cna module for Cobaltstrike, you should import it to use unhook_me command (Script Manager)
-- unhook_me dll : The main project and code for the unhook_me dll, no releases will be available.
+- **unhook_me.cna** : The cna module for Cobaltstrike, you should import it to use unhook_me command (Script Manager)
+- **unhook_me dll** : The main project and code for the unhook_me dll, **no releases will be available**.
 
 Detailed usage :
 
