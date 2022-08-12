@@ -1,0 +1,14 @@
+beacon_command_register(
+	"unhook_me",
+	"Unhook available Nt or Zw functions",
+	"Usage : unhook_me function_name - default : all functions" 
+);
+
+
+alias unhook_me {
+
+	local('$args');
+	$args = bof_pack($1);
+
+        bdllspawn($1, script_resource("unhook.dll"), $2, $args, "unhook_me", 5000, false);
+}

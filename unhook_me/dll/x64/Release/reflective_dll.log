@@ -1,0 +1,25 @@
+﻿  ReflectiveDll.c
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(88,10): warning C4477: 'printf' : la chaîne de format '%#x' nécessite un argument de type 'unsigned int', mais l'argument variadique 1 est de type 'LPVOID'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(88,10): warning C4313: 'printf' : conflit entre '%x' dans la chaîne de format et l'argument 1 de type 'LPVOID'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(89,10): warning C4477: 'printf' : la chaîne de format '%#x' nécessite un argument de type 'unsigned int', mais l'argument variadique 1 est de type 'LPVOID'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(89,10): warning C4313: 'printf' : conflit entre '%x' dans la chaîne de format et l'argument 1 de type 'LPVOID'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(99,38): warning C4311: 'cast de type' : troncation de pointeur de 'PVOID' à 'DWORD'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(99,38): warning C4302: 'cast de type' : troncation de 'PVOID' à 'DWORD'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(99,53): warning C4311: 'cast de type' : troncation de pointeur de 'LPVOID' à 'DWORD'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(99,53): warning C4302: 'cast de type' : troncation de 'LPVOID' à 'DWORD'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(153,13): warning C4477: 'printf' : la chaîne de format '%#x' nécessite un argument de type 'unsigned int', mais l'argument variadique 1 est de type 'LPVOID'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(153,13): warning C4313: 'printf' : conflit entre '%x' dans la chaîne de format et l'argument 1 de type 'LPVOID'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(154,13): warning C4477: 'printf' : la chaîne de format '%#x' nécessite un argument de type 'unsigned int', mais l'argument variadique 1 est de type 'LPVOID'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(154,13): warning C4313: 'printf' : conflit entre '%x' dans la chaîne de format et l'argument 1 de type 'LPVOID'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(158,13): warning C4477: 'printf' : la chaîne de format '%#x' nécessite un argument de type 'unsigned int', mais l'argument variadique 2 est de type 'PVOID'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(158,13): warning C4313: 'printf' : conflit entre '%x' dans la chaîne de format et l'argument 2 de type 'PVOID'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(160,38): warning C4311: 'cast de type' : troncation de pointeur de 'PVOID' à 'DWORD'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(160,38): warning C4302: 'cast de type' : troncation de 'PVOID' à 'DWORD'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(160,53): warning C4311: 'cast de type' : troncation de pointeur de 'LPVOID' à 'DWORD'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(160,53): warning C4302: 'cast de type' : troncation de 'LPVOID' à 'DWORD'
+C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\dll\src\ReflectiveDll.c(207): warning C4715: 'unhook' : les chemins de contrôle ne retournent pas tous une valeur
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\x64\Release\reflective_dll.dll) ne correspond pas à la valeur de la propriété OutputFile (C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\x64\Release\reflective_dll.x64.dll) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1365,5): warning MSB8012: TargetName(reflective_dll) ne correspond pas à la valeur de la propriété OutputFile (reflective_dll.x64) de Linker. Cela peut entraîner une génération incorrecte de votre projet. Pour corriger ce problème, vérifiez que les valeurs des propriétés $(OutDir), $(TargetName) et $(TargetExt) correspondent à la valeur spécifiée dans %(Link.OutputFile).
+     Création de la bibliothèque C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\x64\Release\reflective_dll.lib et de l'objet C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\x64\Release\reflective_dll.exp
+  reflective_dll.vcxproj -> C:\Users\Matthieu\Desktop\ReflectiveDLLInjection-master\x64\Release\reflective_dll.dll
+          1 fichier(s) copié(s).
